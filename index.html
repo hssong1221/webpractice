@@ -4,21 +4,37 @@
 	<head>
 		<title>원대한 계획</title>
 		<meta charset="utf-8">
+		<link rel="stylesheet"  href="style.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>	
+		<script src="colors.js"></script>
 	</head>
 
 	<body>
-		<h1><a href = "index.html">계획</a></h1>
-		<ol>
-			<li><a href = "1.html">우리가 가평에 가서 무사히 놀 수 있을까</a></li>
-			<li><a href = "2.html">숙소에 관해서</a></li>
-			<li><a href = "3.html">가서 우리는 무엇을 할까</a> </li>
-		</ol>
-		<h2>원대한 계획</h2>
-		<br><br>
-		
-		<p>
-			이 글을 쓰는 목적은 효과적으로 어떻게 하면 잘 놀다가 무사히 나만 돌아올 수 있을까를 생각하면서 나름 고민해서 쓴 결과물인 웹페이지 입니다. 
-		</p>
-	
+		<h1><a href = "index.html" style="text-decoration: underline;">계획</a></h1> 
+
+		<input type="button" value="Night" onclick="nightDay(this);">
+		<div id="grid">
+			<ol>
+				<li><a href = "1.html">우리가 가평에 가서 무사히 놀 수 있을까</a></li>
+				<li><a href = "2.html">숙소에 관해서</a></li>
+				<li><a href = "3.html">가서 우리는 무엇을 할까</a> </li>
+			</ol>
+			<!--
+			<h1><a href = "index.html"><font color="red">계획</font></a></h1>
+			<ol>
+				<li><a href = "1.html"><font color="red">우리가 가평에 가서 무사히 놀 수 있을까</font></a></li>
+				<li><a href = "2.html"><font color="red">숙소에 관해서</font></a></li>
+				<li><a href = "3.html"><font color="red">가서 우리는 무엇을 할까</font></a> </li>
+			</ol>
+			-->
+			<div id="article">
+				<h2>원대한 계획</h2>
+				<br><br>
+				
+				<p>
+					이 글을 쓰는 목적은 효과적으로 어떻게 하면 잘 놀다가 무사히 나만 돌아올 수 있을까를 생각하면서 나름 고민해서 쓴 결과물인 웹페이지 입니다. 
+				</p>
+			</div>
+		</div>
 	</body>
 </html>
